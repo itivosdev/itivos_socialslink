@@ -1,0 +1,24 @@
+#itivos_socialslink_list_admin {
+	list-style: none;
+	padding: 0px;
+}
+#itivos_socialslink_list_admin li{
+	background: white;
+	display: block;
+	border-bottom: solid 1px #1111;
+	padding: 10px;
+	cursor: move;
+	position: relative;
+}
+#itivos_socialslink_list_admin li span{
+	user-select: none;
+}
+#itivos_socialslink_list_admin li span:after{
+	font-family: 'Material Icons';
+	content: "\e89f";
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #428bca;
+}
