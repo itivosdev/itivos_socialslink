@@ -1,6 +1,7 @@
 #itivos_social_list_link {
 	margin: 0px;
 	padding: 0px;
+	text-align: right;
 }
 #itivos_social_list_link  li{
 	display: inline-grid;
@@ -8,23 +9,24 @@
 #itivos_social_list_link li a {
 	width: 36px;
 	opacity: 0.8;
-	padding-right: 10px;
+	padding-left: 5px;
+	fill: #11111154;
 }
 #itivos_social_list_link li a:hover {
 	opacity: 1;
 }
-#itivos_social_list_link li a span.twitter{
+#itivos_social_list_link li a span.twitter:hover{
     fill: #222; 
 }
-#itivos_social_list_link li a span.facebook{
+#itivos_social_list_link li a span.facebook:hover{
 	fill: #1877F2 ;
 }
-#itivos_social_list_link li a span.instagram{
+#itivos_social_list_link li a span.instagram:hover{
     fill: #C13584;
 }
-#itivos_social_list_link li a span.youtube{
+#itivos_social_list_link li a span.youtube:hover{
     fill: #FF0000;
 }
-#itivos_social_list_link li a span.linkedin{
+#itivos_social_list_link li a span.linkedin:hover{
     fill: #0077B5;
 }
